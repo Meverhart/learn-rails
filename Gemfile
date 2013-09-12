@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+ruby '2.0.0'
 gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
@@ -43,3 +44,19 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# learn-rails
+gem 'activerecord-tableless'
+gem 'bootstrap-sass'
+gem 'figaro'
+gem 'gibbon'
+gem 'google_drive'
+gem 'high_voltage'
+gem 'simple_form', '>= 3.0.0.rc'
+
+group :development do
+	gem 'better_errors'
+	gem 'quiet_assets'
+end
+
+
