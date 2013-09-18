@@ -155,7 +155,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord-tableless
   better_errors
-  bootstrap-sass
+  bootstrap-sass (~> 2.3.2.2)
   coffee-rails (~> 4.0.0)
   figaro
   gibbon

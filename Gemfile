@@ -47,7 +47,7 @@ end
 
 # learn-rails
 gem 'activerecord-tableless'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 2.3.2.2'
 gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
